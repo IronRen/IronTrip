@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # iron_trip
 
 A new Flutter application demo about trip.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# IronTrip
+仿携程—Flutter
+>>>>>>> irontrip/master
