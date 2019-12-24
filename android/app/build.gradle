@@ -71,6 +71,11 @@ android {
             useProguard true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        debug {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.debug
+        }
     }
     packagingOptions{
         // 确保app与asr_plugin都依赖的libflutter.so merge时不冲突@https://github.com/card-io/card.io-Android-SDK/issues/186#issuecomment-427552552
@@ -80,6 +85,7 @@ android {
         pickFirst 'lib/armeabi-v7a/libflutter.so'
         pickFirst 'lib/arm64-v8a/libapp.so'
         pickFirst 'lib/x86_64/libapp.so'
+        pickFirst 'lib/x86/libapp.so'
         pickFirst 'lib/armeabi-v7a/libapp.so'
     }
 }

@@ -41,6 +41,12 @@ android {
         consumerProguardFiles 'consumer-rules.pro'
     }
 
+    sourceSets {
+        main {
+            jniLibs.srcDir 'libs'
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false

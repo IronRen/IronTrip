@@ -41,7 +41,7 @@ android {
         consumerProguardFiles 'consumer-rules.pro'
 
         manifestPlaceholders = [
-                BAIDU_MAP_KEY : "", /// 百度地图key
+                BAIDU_MAP_KEY : "GvHIlLwcOd5ZTSNZLQxTH7Mmef3dbtWG", /// 百度地图key
         ]
     }
 
