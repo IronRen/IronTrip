@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     ///设置百度Ak
-    LocationManager.setAk("");
+    LocationManager.setAk("GvHIlLwcOd5ZTSNZLQxTH7Mmef3dbtWG");
     loadLocation(widget.cityModel);
     super.initState();
   }

@@ -8,13 +8,13 @@
 
     <application>
         <meta-data android:name="com.baidu.speech.APP_ID"
-            android:value="" />
+            android:value="17169892" />
         <meta-data
             android:name="com.baidu.speech.API_KEY"
-            android:value="" />
+            android:value="DDFa2BAMN37oeZXXQ1x55y2G" />
         <meta-data
             android:name="com.baidu.speech.SECRET_KEY"
-            android:value="" />
+            android:value="IeYBGe5Y8D0G3TCHo97GGGNKFez2ZYPB" />
 
         <service android:name="com.baidu.speech.VoiceRecognitionService"
             android:exported="false" />
