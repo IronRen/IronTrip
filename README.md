@@ -4,5 +4,4 @@
 ![](https://www.pgyer.com/app/qrcode/E7uJ)
 
 ### 演示gif
-![](https://github.com/IronRen/iron_trip/blob/master/demonstration.gif?imageMogr2/auto-orient/strip/imageView2/2/w/300)
 <img src="https://github.com/IronRen/iron_trip/blob/master/demonstration.gif" width ="300" alt="演示"/>
